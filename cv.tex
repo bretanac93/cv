@@ -1,0 +1,114 @@
+\documentclass{resume}
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{Cesar Bretana}
+\address{\href{tel:+491792678727}{+49 (179) 2678-727} \\ Berlin, Germany} 
+\address{\href{mailto:bretanac@gmail.com}{bretanac@gmail.com} \\ \href{https://linkedin.com/in/bretanac93}{linkedin.com/in/bretanac93} \\ \href{https://cesarbretana.com}{cesarbretana.com}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+% SUMMARY
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Summary}
+Senior Software Engineer with over 10 years of experience building distributed systems and LLM-powered applications. Designed and deployed real-time agent systems (RAG, tool use, multi-step workflows) in production environments. Strong focus on performance, observability, and scalable event-driven architectures.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\textbf{Senior Software Engineer} \hfill Jun 2026 - Present\\
+Trade Republic \hfill \textit{Berlin, Germany}
+\begin{itemize}
+    \itemsep -3pt {} 
+    \item Building a platform for managing marketing and customer acquisition campaigns
+    \item Working on the integration of the Altersvorsorgedepot (Private pension plan) into the existing system
+\end{itemize}
+
+\vspace{4bp}
+
+\textbf{Senior Software Engineer} \hfill Jun 2025 - May 2026\\
+Enam \hfill \textit{Berlin, Germany}
+\begin{itemize}
+    \itemsep -3pt {} 
+    \item Built a real-time LLM-powered voice agent for outbound debt collection using LiveKit, increasing collection efficiency by 70\% vs human agents
+    \item Designed multi-step agent workflows (intent detection, negotiation strategy, response generation, action execution) with tool-calling and Retrieval-Augmented Generation (RAG) over unstructured dispute data
+    \item Implemented low-latency streaming pipeline (ASR $\rightarrow$ LLM $\rightarrow$ TTS) with interruption handling and turn-taking for natural conversations
+    \item Developed evaluation and observability framework (latency, task success rate, token usage, failure modes) to optimize performance and cost
+    \item Built callback orchestration system to balance agent demand, improving human productivity by 30\%
+    \item Delivered internal tooling for agent handoff with enriched debtor context, reducing handling time by 50\%
+\end{itemize}
+
+\vspace{4bp}
+
+\textbf{Senior Software Engineer} \hfill Feb 2024 - May 2025\\
+SumUp Limited \hfill \textit{Berlin, Germany}
+\begin{itemize}
+    \itemsep -3pt {} 
+    \item Led development of mandate management service enabling merchants to handle direct debits end-to-end
+    \item Designed and implemented Confirmation of Payee system for UK market (compliance-critical payment flows)
+    \item Drove migration from synchronous to event-driven architecture, improving scalability and system resilience
+    \item Increased observability coverage by 30\% through implementation of metrics and distributed tracing
+\end{itemize}
+
+\vspace{4bp}
+
+\textbf{Senior Software Engineer} \hfill Oct 2021 - Jan 2024\\
+HelloFresh SE \hfill \textit{Berlin, Germany}
+\begin{itemize}
+    \itemsep -3pt {} 
+    \item Extracted delivery planning domain from monolith into event-driven services, enabling faster feature delivery across new markets
+    \item Productionized Kafka Streams on Kubernetes, increasing service availability from 99.9\% to 99.99\%
+    \item Led observability improvements (metrics, alerts), increasing monitoring coverage from 20\% to 70\%
+\end{itemize}
+
+\vspace{4bp}
+
+\textbf{Senior Software Engineer} \hfill Oct 2017 - Oct 2021\\
+Lengoo GmbH \hfill \textit{Berlin, Germany}
+\begin{itemize}
+    \itemsep -3pt {} 
+    \item Contributed to scaling the platform from early stage to Series B
+    \item Built ML-powered translation workflows prior to LLM adoption, improving delivery speed and quality
+    \item Developed advanced CAT tooling, increasing linguist productivity by over 50\%
+    \item Reduced infrastructure costs by 40\% through migration to Kubernetes
+\end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% SKILLS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+Go, Python, Typescript, NodeJS, React, Vue, Kafka, Kubernetes, Docker, Event-Driven Architecture, Distributed Systems, LLM Systems (RAG, Agents, Tooling), Observability
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% ADDITIONAL EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Additional Experience}
+\begin{itemize}
+    \item Advised early-stage startup on backend architecture and product strategy; built initial MVP
+    \item Mentored software engineers on system design and engineering best practices
+    \item Building AI-driven coding assessment platform (Go + React)
+\end{itemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% EDUCATION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\bf BSc Computer Science}, Pinar del Rio University, Cuba \hfill 2012 - 2017
+\end{rSection}
+
+\end{document}
